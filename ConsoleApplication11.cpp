@@ -33,5 +33,5 @@ int main()
     for (int i = 0; i < a1_lenght; i++)
         cout << num_array2[i] << " ";
     delete[] num_array2;
-    return 0;
+    return 0; 
 }
