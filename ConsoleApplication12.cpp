@@ -38,4 +38,4 @@ int main()
     cout << "\nsum of iterations = " << sum;
     delete[] num_array;
     return 0;
-}
+} 
