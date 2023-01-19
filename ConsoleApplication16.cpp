@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <ctime>
 
 using namespace std;
 
@@ -10,7 +9,6 @@ void output(int** arr, int rw, int cl);
 int main()
 {
     int** arr, rw = 0;
-    srand(time(NULL));
     cout << "Enter the number of columns and rows - ";
     cin >> rw;
 
