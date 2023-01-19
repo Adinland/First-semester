@@ -31,7 +31,7 @@ int main()
             sum++;
         }
         cout << i << " <- i \n";
-    }
+    } 
     //вывод
     for (int i = 0; i < lenght; i++)
         cout << num_array[i] << " ";
