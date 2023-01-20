@@ -21,6 +21,8 @@ int main()
     input(arr2, n2);
     output(arr1, n1);
     output(arr2, n2);
+    delete[] arr1;
+    delete[] arr2;
     return 0;
 }
 
