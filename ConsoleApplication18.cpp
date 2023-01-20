@@ -8,7 +8,7 @@ int main()
     cout << "\tExercise 1:\n";
     string str;
     getline(cin, str);
-    cout << str[0];
+    cout << str[1];
 
     cout << "\tExercise 2:\n";
     cout << str[str.length()];
