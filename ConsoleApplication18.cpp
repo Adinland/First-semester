@@ -40,7 +40,7 @@ int main()
     //проверка на правильность диапазона
     for (bool ext = false; ext != true;)
     {
-        cout << "Which elements will be delete?\n";
+        cout << "Which element will be delete?\n";
         cin >> ch1;
         if (ch1 > str.length() || ch1 < 0)
             cout << "Ooops, the number is more than the number of symbols. Try symbols from 1 to " << str.length() << "\n";
